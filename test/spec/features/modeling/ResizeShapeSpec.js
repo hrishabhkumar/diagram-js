@@ -2,7 +2,7 @@
 
 /* global bootstrapDiagram, inject */
 
-var pick = require('lodash/object/pick');
+var pick = require('lodash/pick');
 
 var resizeBounds = require('../../../../lib/features/resize/ResizeUtil').resizeBounds,
     canvasEvent = require('../../../util/MockEvents').createCanvasEvent,

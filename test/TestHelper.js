@@ -3,7 +3,7 @@
 // make sinon fake timers work with lodash #debounce, #now
 // and friends by overriding the native Date#now.
 //
-// it would otherwise be cached by lodash in `lodash/date/now`
+// it would otherwise be cached by lodash in `lodash/now`
 Date.now = function() {
   return new Date().getTime();
 };

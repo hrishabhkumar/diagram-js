@@ -4,7 +4,7 @@ require('../../TestHelper');
 
 /* global bootstrapDiagram, inject, sinon */
 
-var merge = require('lodash/object/merge');
+var merge = require('lodash/merge');
 var TestContainer = require('mocha-test-container-support');
 
 var domQuery = require('min-dom/lib/query');

@@ -3,9 +3,9 @@
 
 /* global bootstrapDiagram, inject */
 
-var forEach = require('lodash/collection/forEach'),
-    assign = require('lodash/object/assign'),
-    every = require('lodash/collection/every'),
+var forEach = require('lodash/forEach'),
+    assign = require('lodash/assign'),
+    every = require('lodash/every'),
     domify = require('min-dom/lib/domify');
 
 var tooltipsModule = require('../../../../lib/features/tooltips');

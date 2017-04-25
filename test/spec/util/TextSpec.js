@@ -1,8 +1,8 @@
 'use strict';
 
-var assign = require('lodash/object/assign');
+var assign = require('lodash/assign');
 
-var pick = require('lodash/object/pick');
+var pick = require('lodash/pick');
 
 var svgAppend = require('tiny-svg/lib/append'),
     svgAttr = require('tiny-svg/lib/attr'),

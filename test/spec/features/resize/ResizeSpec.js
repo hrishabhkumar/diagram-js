@@ -7,7 +7,7 @@ var TestHelper = require('../../../TestHelper');
 
 var canvasEvent = require('../../../util/MockEvents').createCanvasEvent;
 
-var pick = require('lodash/object/pick');
+var pick = require('lodash/pick');
 
 var resizeModule = require('../../../../lib/features/resize'),
     modelingModule = require('../../../../lib/features/modeling'),

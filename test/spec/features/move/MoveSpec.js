@@ -4,8 +4,8 @@ var canvasEvent = require('../../../util/MockEvents').createCanvasEvent;
 
 /* global bootstrapDiagram, inject */
 
-var assign = require('lodash/object/assign'),
-    pick = require('lodash/object/pick');
+var assign = require('lodash/assign'),
+    pick = require('lodash/pick');
 
 var modelingModule = require('../../../../lib/features/modeling'),
     moveModule = require('../../../../lib/features/move');
